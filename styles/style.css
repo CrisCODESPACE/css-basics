@@ -1,0 +1,99 @@
+/*estilos generales*/
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+  color: #111;
+  margin-bottom: 24px;
+}
+
+/*estilos de la seccion perfil*/
+
+#perfil {
+  max-width: 600px;
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 2%;
+  padding: 20px;
+  box-shadow: 0px 4px 8px black;
+}
+
+/* estilos info-principal */
+
+.info-principal {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nombre {
+  font-size: 30px;
+  color: #0056b3;
+}
+
+.ocupacion {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.ubicacion {
+  color: #777;
+}
+
+/* estilos biografia */
+
+.biografia {
+  margin-bottom: 24px;
+}
+
+.biografia > p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* estilos habilidades */
+
+.habilidades > h2,
+.contacto > h2 {
+  font-size: 20px;
+  color: #0056b3;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+.lista-habilidades {
+  list-style-type: square;
+  padding-left: 20px;
+  color: #0056b3;
+}
+
+.lista-habilidades > li {
+  font-size: 14px;
+  margin: 5px;
+}
+
+/* estilos contacto*/
+
+.lista-contacto {
+  list-style: none;
+  padding-left: 0;
+}
+
+.lista-contacto > li {
+  font-size: 18px;
+  margin: 5px;
+  color: #111;
+}
+
+li > a {
+  text-decoration: none;
+  color: inherit;
+}
